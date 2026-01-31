@@ -7,6 +7,6 @@ metadata:
 
 managedNodeGroups:
   - name: expense
-    instanceTypes: ["m7-flex.large", "c7-flex.large","t3.small"]
+    instanceTypes: ["m7-flex.large", "c7-flex.large","t3.small","t2.micro"]
     desiredCapacity: 3
     spot: false    
